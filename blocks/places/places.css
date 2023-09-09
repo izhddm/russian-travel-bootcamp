@@ -1,0 +1,31 @@
+.places {
+    width: 100%;
+    max-width: 984px;
+    margin: 0 auto;
+    padding: 92px 0 0 0;
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 80px;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+@media screen and (max-width: 1279px) {
+    .cover {
+        max-width: 928px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .cover {
+        max-width: 720px;
+        padding-top: 88px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .cover {
+        /* TODO Под мобилу доделать*/
+    }
+}

@@ -1,0 +1,19 @@
+.cover__subtitle {
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 122.222% */
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 91%);
+    margin: 0;
+    z-index: 2;
+
+    width: 100%;
+    max-width: 360px;
+
+    user-select: none;
+}

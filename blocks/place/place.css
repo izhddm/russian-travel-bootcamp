@@ -1,0 +1,28 @@
+.place {
+    color: #FFF;
+    font-family: Inter, serif;
+
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas:
+        "title website"
+        "image paragraph"
+        "image paragraph";
+    row-gap: 48px;
+    column-gap: 40px;
+}
+
+@media screen and (max-width: 1279px) {
+    .place {
+        column-gap: 32px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    /* TODO Под 768px*/
+}
+
+@media screen and (max-width: 767px) {
+    /* TODO Под мобилу доделать*/
+}

@@ -1,0 +1,23 @@
+.place__paragraphs {
+    grid-area: paragraph;
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+
+    width: 100%;
+    max-width: 484px;
+}
+
+@media screen and (max-width: 1279px) {
+    .place__paragraphs {
+        max-width: 456px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    /* TODO Под 768px*/
+}
+
+@media screen and (max-width: 767px) {
+    /* TODO Под 320px*/
+}

@@ -1,0 +1,24 @@
+.intro {
+    grid-area: intro;
+    width: 100%;
+    max-width: 984px;
+    margin: 0 auto;
+    padding: 92px 0 0 0;
+
+    color: #FFF;
+    font-family: Inter, serif;
+}
+
+@media screen and (max-width: 1279px) {
+    .intro {
+        max-width : 928px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    /* TODO Под 768px*/
+}
+
+@media screen and (max-width: 767px) {
+    /* TODO Под 320px*/
+}

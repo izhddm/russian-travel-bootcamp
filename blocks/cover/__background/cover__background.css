@@ -1,0 +1,18 @@
+.cover__background {
+    color: #FFF;
+
+    background-image: url("../../../images/cover/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 0;
+    padding-bottom: 62.5%; /* Отношение ширины к высоте (740/1184) */
+    position: relative;
+    display: block;
+}
+
+.cover__background:hover .cover__overlay {
+    cursor: pointer;
+    opacity: .8;
+    transition: opacity .2s linear;
+}
