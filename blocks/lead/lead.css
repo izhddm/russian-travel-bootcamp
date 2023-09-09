@@ -17,7 +17,10 @@
 }
 
 @media screen and (max-width: 1023px) {
-    /* TODO Под 768px*/
+    .lead {
+        max-width: 768px;
+        padding-top: 48px;
+    }
 }
 
 @media screen and (max-width: 767px) {

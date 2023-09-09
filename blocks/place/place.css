@@ -20,7 +20,9 @@
 }
 
 @media screen and (max-width: 1023px) {
-    /* TODO Под 768px*/
+    .place {
+        column-gap: 28px;
+    }
 }
 
 @media screen and (max-width: 767px) {

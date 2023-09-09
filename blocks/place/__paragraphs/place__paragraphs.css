@@ -15,7 +15,9 @@
 }
 
 @media screen and (max-width: 1023px) {
-    /* TODO Под 768px*/
+    .place__paragraphs {
+        max-width: 352px;
+    }
 }
 
 @media screen and (max-width: 767px) {

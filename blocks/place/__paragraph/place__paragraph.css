@@ -6,3 +6,9 @@
     font-weight: 400;
     line-height: 163%; /* 29.34px */
 }
+
+@media screen and (max-width: 1023px) {
+    .place__paragraph {
+        font-size: 16px;
+    }
+}

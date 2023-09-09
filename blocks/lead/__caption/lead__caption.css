@@ -8,3 +8,13 @@
     margin: 8px 0 0;
     /*line-height: 14px; !* 140% *!*/
 }
+
+@media screen and (max-width: 1023px) {
+    .lead__caption {
+        padding-left: 24px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    /* TODO Под 320px*/
+}

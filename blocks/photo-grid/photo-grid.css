@@ -22,7 +22,12 @@
 }
 
 @media screen and (max-width: 1023px) {
-    /* TODO Под 768px*/
+    .photo-grid {
+        max-width: 720px;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+        padding-top: 88px;
+    }
 }
 
 @media screen and (max-width: 767px) {
