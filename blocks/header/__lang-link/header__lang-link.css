@@ -1,5 +1,6 @@
 .header__lang-link {
     margin: 0;
+    text-decoration: none;
     text-underline-position: under;
 
     color: #FFF;
