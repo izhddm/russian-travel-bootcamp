@@ -5,6 +5,8 @@
 
 @import "../blocks/conten/content.css";
 
+@import "../blocks/link-opacity/link-opacity.css";
+
 @import "../blocks/header/header.css";
 @import "../blocks/header/__logo/header__logo.css";
 @import "../blocks/header/__lang-links/header__lang-links.css";
