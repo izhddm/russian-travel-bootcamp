@@ -26,5 +26,14 @@
 }
 
 @media screen and (max-width: 767px) {
-    /* TODO Под мобилу доделать*/
+    .place {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "title"
+        "website"
+        "image"
+        "paragraph";
+        row-gap: 32px;
+
+    }
 }

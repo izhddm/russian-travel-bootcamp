@@ -26,5 +26,9 @@
 }
 
 @media screen and (max-width: 767px) {
-        /* TODO Под мобилу доделать*/
+    .places {
+        max-width: 320px;
+        row-gap: 50px;
+        padding-top: 64px;
+    }
 }

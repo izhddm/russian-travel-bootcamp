@@ -19,10 +19,11 @@
 @media screen and (max-width: 1023px) {
     .lead {
         max-width: 768px;
-        padding-top: 48px;
     }
 }
 
 @media screen and (max-width: 767px) {
-    /* TODO Под 320px*/
+    .lead {
+        max-width: 320px;
+    }
 }

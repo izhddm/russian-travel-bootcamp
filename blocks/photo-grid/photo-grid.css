@@ -31,5 +31,10 @@
 }
 
 @media screen and (max-width: 767px) {
-    /* TODO Под 320px*/
+    .photo-grid {
+        max-width: 288px;
+        grid-template-columns: 1fr;
+        gap: 12px;
+        padding-top: 64px;
+    }
 }

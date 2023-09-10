@@ -23,5 +23,8 @@
 }
 
 @media screen and (max-width: 767px) {
-    /* TODO Под 320px*/
+    .intro {
+        max-width : 288px;
+        padding-top: 64px;
+    }
 }

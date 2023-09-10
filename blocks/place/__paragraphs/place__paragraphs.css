@@ -6,6 +6,7 @@
 
     width: 100%;
     max-width: 484px;
+    margin: 0 auto;
 }
 
 @media screen and (max-width: 1279px) {
@@ -21,5 +22,7 @@
 }
 
 @media screen and (max-width: 767px) {
-    /* TODO Под 320px*/
+    .place__paragraphs{
+        max-width: 288px;
+    }
 }

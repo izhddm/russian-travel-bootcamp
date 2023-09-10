@@ -8,7 +8,7 @@
 
     width: 100%;
     max-width: 484px;
-
+    margin: 0;
 }
 
 @media screen and (max-width: 1279px) {
@@ -24,5 +24,9 @@
 }
 
 @media screen and (max-width: 767px) {
-    /* TODO Под 320px*/
+    .place__website {
+        max-width: 288px;
+        margin-right: auto;
+        margin-left: auto;
+    }
 }

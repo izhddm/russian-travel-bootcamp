@@ -27,5 +27,12 @@
 }
 
 @media screen and (max-width: 767px) {
-    /* TODO Под мобилу доделать*/
+    .place__title {
+        max-width: 288px;
+        margin-left: auto;
+        margin-right: auto;
+
+        font-size: 32px;
+        line-height: 35px; /* 109.375% */
+    }
 }

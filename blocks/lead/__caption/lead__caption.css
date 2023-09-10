@@ -5,8 +5,8 @@
     letter-spacing: 1.5px;
     text-transform: uppercase;
     text-align: start;
-    margin: 8px 0 0;
-    /*line-height: 14px; !* 140% *!*/
+    margin: 6px 0 0;
+    line-height: 14px; /* 140% */
 }
 
 @media screen and (max-width: 1023px) {
@@ -16,5 +16,7 @@
 }
 
 @media screen and (max-width: 767px) {
-    /* TODO Под 320px*/
+    .lead__caption {
+        padding-left: 16px;
+    }
 }
