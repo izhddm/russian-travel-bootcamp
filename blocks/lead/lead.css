@@ -1,29 +1,29 @@
 .lead {
-    grid-area: lead;
-    color: #FFF;
-    text-align: center;
-    font-family: Inter, serif;
-    padding: 56px 0 0 0;
-    width: 100%;
-    max-width: 984px;
-    margin: 0 auto;
+  grid-area: lead;
+  color: #FFF;
+  text-align: center;
+  font-family: Inter, serif;
+  padding: 56px 0 0 0;
+  width: 100%;
+  max-width: 984px;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 1279px) {
-    .lead {
-        max-width: 928px;
-        padding-top: 48px;
-    }
+  .lead {
+    max-width: 928px;
+    padding-top: 48px;
+  }
 }
 
 @media screen and (max-width: 1023px) {
-    .lead {
-        max-width: 768px;
-    }
+  .lead {
+    max-width: 768px;
+  }
 }
 
 @media screen and (max-width: 767px) {
-    .lead {
-        max-width: 320px;
-    }
+  .lead {
+    max-width: 320px;
+  }
 }

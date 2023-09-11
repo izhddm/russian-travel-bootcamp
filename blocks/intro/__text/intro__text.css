@@ -1,23 +1,23 @@
 .intro__text {
-    width: 100%;
-    max-width: 690px;
-    margin: 39px 0 0 0; /*40px 0 0 0*/
+  width: 100%;
+  max-width: 690px;
+  margin: 39px 0 0 0; /*40px 0 0 0*/
 
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 163%; /* 26.08px */
-    text-rendering: optimizeLegibility;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 163%; /* 26.08px */
+  text-rendering: optimizeLegibility;
 }
 
 @media screen and (max-width: 1023px) {
-    .intro__text {
-        max-width : 720px;
-    }
+  .intro__text {
+    max-width: 720px;
+  }
 }
 
 @media screen and (max-width: 767px) {
-    .intro__text {
-        max-width : 288px;
-    }
+  .intro__text {
+    max-width: 288px;
+  }
 }

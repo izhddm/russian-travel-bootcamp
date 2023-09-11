@@ -1,39 +1,39 @@
 .place {
-    color: #FFF;
-    font-family: Inter, serif;
+  color: #FFF;
+  font-family: Inter, serif;
 
-    display: grid;
-    grid-template-columns: auto 1fr;
-    grid-template-rows: repeat(3, auto);
-    grid-template-areas:
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas:
         "title website"
         "image paragraph"
         "image paragraph";
-    row-gap: 48px;
-    column-gap: 40px;
+  row-gap: 48px;
+  column-gap: 40px;
 }
 
 @media screen and (max-width: 1279px) {
-    .place {
-        column-gap: 32px;
-    }
+  .place {
+    column-gap: 32px;
+  }
 }
 
 @media screen and (max-width: 1023px) {
-    .place {
-        column-gap: 28px;
-    }
+  .place {
+    column-gap: 28px;
+  }
 }
 
 @media screen and (max-width: 767px) {
-    .place {
-        grid-template-columns: 1fr;
-        grid-template-areas:
+  .place {
+    grid-template-columns: 1fr;
+    grid-template-areas:
         "title"
         "website"
         "image"
         "paragraph";
-        row-gap: 32px;
+    row-gap: 32px;
 
-    }
+  }
 }

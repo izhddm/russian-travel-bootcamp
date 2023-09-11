@@ -1,32 +1,32 @@
 .place__website {
-    grid-area: website;
-    align-self: flex-end;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    gap: 12px;
+  grid-area: website;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 12px;
 
-    width: 100%;
-    max-width: 484px;
-    margin: 0;
+  width: 100%;
+  max-width: 484px;
+  margin: 0;
 }
 
 @media screen and (max-width: 1279px) {
-    .place__website {
-        max-width: 456px;
-    }
+  .place__website {
+    max-width: 456px;
+  }
 }
 
 @media screen and (max-width: 1023px) {
-    .place__website {
-        max-width: 352px;
-    }
+  .place__website {
+    max-width: 352px;
+  }
 }
 
 @media screen and (max-width: 767px) {
-    .place__website {
-        max-width: 288px;
-        margin-right: auto;
-        margin-left: auto;
-    }
+  .place__website {
+    max-width: 288px;
+    margin-right: auto;
+    margin-left: auto;
+  }
 }

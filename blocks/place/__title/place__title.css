@@ -1,38 +1,38 @@
 .place__title {
-    grid-area: title;
+  grid-area: title;
 
-    width: 100%;
-    max-width: 460px;
-    margin: 0;
+  width: 100%;
+  max-width: 460px;
+  margin: 0;
 
-    font-size: 72px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 76px; /* 105.556% */
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 76px; /* 105.556% */
 }
 
 @media screen and (max-width: 1279px) {
-    .place__title {
-        max-width: 440px;
-    }
+  .place__title {
+    max-width: 440px;
+  }
 }
 
 @media screen and (max-width: 1023px) {
-    .place__title {
-        max-width: 330px;
+  .place__title {
+    max-width: 330px;
 
-        font-size: 42px;
-        line-height: 46px; /* 109.524% */
-    }
+    font-size: 42px;
+    line-height: 46px; /* 109.524% */
+  }
 }
 
 @media screen and (max-width: 767px) {
-    .place__title {
-        max-width: 288px;
-        margin-left: auto;
-        margin-right: auto;
+  .place__title {
+    max-width: 288px;
+    margin-left: auto;
+    margin-right: auto;
 
-        font-size: 32px;
-        line-height: 35px; /* 109.375% */
-    }
+    font-size: 32px;
+    line-height: 35px; /* 109.375% */
+  }
 }
