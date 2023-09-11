@@ -8,6 +8,7 @@
 
   width: 100%;
   max-width: 560px;
+  z-index: 2;
 
   user-select: none;
 }
